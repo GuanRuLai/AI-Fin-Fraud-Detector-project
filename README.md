@@ -1,17 +1,11 @@
-# [GroupID] your project title
+# AI Fin Fraud Detector
 The goals of this project.
 
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|何大南|資科碩二|110753202|團隊中的吉祥物🦒，負責增進團隊氣氛| 
-|張小明|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
-
-## Quick start
-Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
-```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
-```
+|賴冠儒|廣電三/人智應三|110405026|團隊 PM 兼 AI 工程師| 
+|許兆豐|廣電三/數位三|110405027|APP 設計師兼工程師|
 
 ## Folder organization and its related description
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
