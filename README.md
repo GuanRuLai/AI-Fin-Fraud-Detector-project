@@ -6,6 +6,8 @@ The goals of this project.
 |-|-|-|-|
 |賴冠儒|廣電三/人智應三|110405026|團隊 PM 兼 AI 工程師| 
 |許兆豐|廣電三/數位三|110405027|APP 設計師兼工程師|
+|邵以懷|傳院二|111405131|APP 工程師|
+|李肇恆|經濟二|110208063|AI 工程師|
 
 ## Folder organization and its related description
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
