@@ -5,11 +5,12 @@ The goals of this project.
 | 組員    | 系級              | 學號       | 職位                     | 工作分配             |
 |---------|-------------------|------------|--------------------------|----------------------|
 | 賴冠儒  | 廣電四/人智應四   | 110405026  | 團隊 PM 兼 AI 工程師     | 進度統整、AI 程式開發 |
+| 蔡安德  | 統計三            | 110405193  |  AI 工程師               | AI 程式開發 |
+| 李肇恆  | 經濟三            | 110208063  | AI 工程師               | AI 程式開發、文獻閱讀 |
 | 許兆豐  | 廣電四/數位四     | 110405027  | APP 設計師兼前端工程師       | APP 設計、程式開發   |
+| 簡子策  | 已畢業            | 無  |  APP 前端工程師               | APP 程式開發 |
 | 邵以懷  | 新聞三            | 111405131  | APP 後端工程師               | APP 程式開發、文獻閱讀 |
 | 李淳皓  | 資管三/數位三     | 111306020  | APP 後端工程師               | APP 程式開發 |
-| 李肇恆  | 經濟三            | 110208063  | AI 工程師               | AI 程式開發、文獻閱讀 |
-| 簡子策  | 已畢業            | 無  |  APP 前端工程師               | APP 程式開發 |
 
 ## Folder organization and its related description
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
