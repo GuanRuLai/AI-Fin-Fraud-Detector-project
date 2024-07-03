@@ -1,5 +1,5 @@
 # AI Fin Fraud Detector
-The goals of this project.
+![teaser](teaser.png)
 
 ## Contributors
 | 組員    | 系級              | 學號       | 職位                     | 工作分配             |
