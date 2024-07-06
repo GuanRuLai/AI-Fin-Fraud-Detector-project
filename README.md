@@ -10,7 +10,7 @@
 | 李肇恆  | 經濟三            | 110208063  | AI Engineer               | AI programming, Theses researching |
 | 許兆豐  | 廣電四/數位四     | 110405027  | APP Designer & Front-end engineer       | APP designing, Front-end programming |
 | 簡子策  | 已畢業            | NA  |  APP Front-end engineer               | Front-end programming |
-| 邵以懷  | 新聞三            | 111405131  | APP Back-end engineer               | Back-end programming, Theses researching |
+| 邵以懷  | 新聞三            | 111405131  | APP Back-end engineer               | Back-end programming, Theses researching, External liaison |
 | 李淳皓  | 資管三/數位三     | 111306020  | APP Back-end engineer               | Back-end programming |
 
 ## Folder organization and its related description
