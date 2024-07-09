@@ -2,7 +2,17 @@
 ![teaser](teaser.png)
 > Please refer to the README.md in the "Code" folder to see the detail experiment results and interpretations.
 
-The goal of this project is to prevent middle-aged and elderly people from suffering telephone fraud, reducing criminal behavior and financial losses.
+The goal of this project is to create an AI fraud detector app to prevent middle-aged and elderly people from suffering telephone fraud, reducing criminal behavior and financial losses instantly.
+
+1. **Artificial intelligence usage**: 
+   - **Data Collection**:  In order to ensure the accuracy of judgment, we use the content of real fraud calls as the criteria for keyword selection, and crawl real fraud phone information from foreign forums through SeleniumModule and BeautifulSoup, such as the fraud discussing community "SEamPhoneCalls", Ruura Forum , Yuutube channel Kittoga, etc.
+   - **Natural Language Processing**:  NLTK Module conducts text analysis on all data obtained by crawlers, using part-of-speech tagging to extract the noun keywords of the text and creates word bags, and applies Counter function to perform word frequency analysis and count the top 50 most frequently occurring keywords. The results are presented through bar chart and word cloud.
+
+2. **Application front end**:
+
+3. **Application back end**:  
+
+By achieving these goals, our team looks forward to not only helping people prevent telephone fraud but also assisting police agencies to beat scammers. 
 
 ## Contributors
 | 組員    | 系級              | 學號       | 職位                     | 工作分配             |
