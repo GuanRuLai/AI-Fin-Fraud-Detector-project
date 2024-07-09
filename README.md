@@ -25,32 +25,9 @@ By achieving these goals, our team looks forward to not only helping people prev
 | 邵以懷  | 新聞三            | 111405131  | APP Back-end engineer               | Back-end programming, Theses researching, External liaison |
 | 李淳皓  | 資管三/數位三     | 111306020  | APP Back-end engineer               | Back-end programming |
 
-## Folder organization and its related description
-idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
+### Project structure
 
-### docs
-* Your presentation, 1122_DS-FP_groupID.ppt/pptx/pdf (i.e.,1122_DS-FP_group1.ppt), by **06.13**
-* Any related document for the project, i.e.,
-  * discussion log
-  * software user guide
-
-### data
-* Input
-  * Source
-  * Format
-  * Size
-
-### code
-* Analysis steps
-* Which method or package do you use?
-* How do you perform training and evaluation?
-  * Cross-validation, or extra separated data
-* What is a null model for comparison?
-
-### results
-* What is your performance?
-* Is the improvement significant?
-
-## References
-* Packages you use
-* Related publications
+## Theses References
+* Z. L. Liu*, "Legal system-oriented telecom fraud detection, identification and prevention," 2023. Thesis. School of Law, Hebei Finance University.
+* Jian-jia Su and Yun-nung Chen, "Modeling Real-Time Call Behaviors for Fraudulent Phone Call Detection," 2019. Thesis. National Taiwan University.
+* Johan H van Heerden, "Detecting Fraud in Cellular Telephone Networks," 2005. Thesis. Operational Analysis University of Stellenbosch.
