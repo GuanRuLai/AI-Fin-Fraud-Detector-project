@@ -25,7 +25,30 @@ By achieving these goals, our team looks forward to not only helping people prev
 | 邵以懷  | 新聞三            | 111405131  | APP Back-end engineer               | Back-end programming, Theses researching, External liaison |
 | 李淳皓  | 資管三/數位三     | 111306020  | APP Back-end engineer               | Back-end programming |
 
-### Project structure
+## Project structure(show at most 3 hiararchy)
+finalproject-group1
+├─ Code
+│  ├─ AI part
+│  │  ├─ NLP_Words_Frequency_Counting.ipynb
+│  │  ├─ Web Scraping.ipynb
+│  │  └─ heart.png
+│  ├─ Backend
+│  │  ├─ api
+│  │  ├─ node_modules
+│  │  ├─ app.js
+│  │  ├─ package-lock.json
+│  │  └─ package.json
+├─ Data
+│  ├─ scam_records_1.csv
+│  ├─ scam_records_2.csv
+│  ├─ scam_records_3.csv
+│  ├─ scam_records_4.csv
+│  └─ scam_records_5.csv
+├─ Doc
+│  ├─ Project poster.pdf
+│  └─ Project proposal.pdf
+├─ README.md
+└─ teaser.png
 
 ## Theses References
 * Z. L. Liu*, "Legal system-oriented telecom fraud detection, identification and prevention," 2023. Thesis. School of Law, Hebei Finance University.
