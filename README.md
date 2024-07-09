@@ -1,6 +1,6 @@
 # AI Fin Fraud Detector
 ![teaser](teaser.png)
-> Please refer to the README.md in the "Code" folder to see the detail experiment results and interpretations.
+> Please refer to the README.md in the "Code" folder to see the detail experiment processes and results.
 
 The goal of this project is to create an AI fraud detector app to prevent middle-aged and elderly people from suffering telephone fraud, reducing criminal behavior and financial losses instantly.
 
