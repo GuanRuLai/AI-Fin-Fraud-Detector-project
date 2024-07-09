@@ -2,6 +2,8 @@
 ![teaser](teaser.png)
 > Please refer to the README.md in the "Code" folder to see the detail experiment results and interpretations.
 
+The goal of this project is to prevent middle-aged and elderly people from suffering telephone fraud, reducing criminal behavior and financial losses.
+
 ## Contributors
 | 組員    | 系級              | 學號       | 職位                     | 工作分配             |
 |---------|-------------------|------------|--------------------------|----------------------|
