@@ -32,12 +32,12 @@ finalproject-group1
 │  │  ├─ NLP_Words_Frequency_Counting.ipynb
 │  │  ├─ Web Scraping.ipynb
 │  │  └─ heart.png
-│  ├─ Backend
-│  │  ├─ api
-│  │  ├─ node_modules
-│  │  ├─ app.js
-│  │  ├─ package-lock.json
-│  │  └─ package.json
+│  └─ Backend
+│     ├─ api
+│     ├─ node_modules
+│     ├─ app.js
+│     ├─ package-lock.json
+│     └─ package.json
 ├─ Data
 │  ├─ scam_records_1.csv
 │  ├─ scam_records_2.csv
