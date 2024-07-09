@@ -27,6 +27,7 @@ By achieving these goals, our team looks forward to not only helping people prev
 | 簡子策  | 已畢業            | NA  |  APP Front-end engineer               | Front-end programming |
 | 邵以懷  | 新聞三            | 111405131  | APP Back-end engineer               | Back-end programming, Theses researching, External liaison |
 | 李淳皓  | 資管三/數位三     | 111306020  | APP Back-end engineer               | Back-end programming |
+| 蘇胤翔  | 資科四     | 110703051  | AI Engineer              | Missing value imputation |
 
 ## Project structure(show at most 3 hiararchy)
 ```
