@@ -14,7 +14,7 @@ The goal of this project is to create an AI fraud detector app to prevent middle
 2. **Application front end**:
 
 3. **Application back end**: 
-   - **Record Storage**: We want to deploy our database on AWS or another cloud service platform. Include the analysis results and advice for users. As for phone call records, users can optionally allow us to store them due to data security and privacy concerns.
+   - **Record Storage**: We want to deploy our database on AWS or another cloud service platform, including the analysis results and advice for users. As for phone call records, users can optionally allow us to store them due to data security and privacy concerns.
 
 By achieving these goals, our team looks forward to not only helping people prevent telephone fraud but also assisting police agencies to beat scammers. 
 
