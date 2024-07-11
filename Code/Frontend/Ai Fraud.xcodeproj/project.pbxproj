@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2E19902C32B6A40026F383 /* Ai_FraudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E198F2C32B6A40026F383 /* Ai_FraudApp.swift */; };
+		EB2E19922C32B6A40026F383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19912C32B6A40026F383 /* ContentView.swift */; };
+		EB2E19942C32B6A60026F383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2E19932C32B6A60026F383 /* Assets.xcassets */; };
+		EB2E19972C32B6A60026F383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2E19962C32B6A60026F383 /* Preview Assets.xcassets */; };
+		EB2E19A02C32B70F0026F383 /* DetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E199F2C32B70F0026F383 /* DetectorView.swift */; };
+		EB2E19A22C32B71C0026F383 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19A12C32B71C0026F383 /* SettingsView.swift */; };
+		EB2E19A42C32B8830026F383 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19A32C32B8830026F383 /* HistoryView.swift */; };
+		EB2E19A62C32B8BE0026F383 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19A52C32B8BE0026F383 /* ProfileView.swift */; };
+		EB2E19A82C32BAA00026F383 /* FakeCallHistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19A72C32BAA00026F383 /* FakeCallHistoryData.swift */; };
+		EB2E19AA2C32BAE90026F383 /* ActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19A92C32BAE90026F383 /* ActivationView.swift */; };
+		EB2E19AC2C32BC510026F383 /* AnalysisResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E19AB2C32BC510026F383 /* AnalysisResultsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB2E198C2C32B6A40026F383 /* Ai Fraud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ai Fraud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2E198F2C32B6A40026F383 /* Ai_FraudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ai_FraudApp.swift; sourceTree = "<group>"; };
+		EB2E19912C32B6A40026F383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB2E19932C32B6A60026F383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2E19962C32B6A60026F383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB2E199F2C32B70F0026F383 /* DetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorView.swift; sourceTree = "<group>"; };
+		EB2E19A12C32B71C0026F383 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EB2E19A32C32B8830026F383 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		EB2E19A52C32B8BE0026F383 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EB2E19A72C32BAA00026F383 /* FakeCallHistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCallHistoryData.swift; sourceTree = "<group>"; };
+		EB2E19A92C32BAE90026F383 /* ActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationView.swift; sourceTree = "<group>"; };
+		EB2E19AB2C32BC510026F383 /* AnalysisResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResultsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2E19892C32B6A40026F383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2E19832C32B6A40026F383 = {
+			isa = PBXGroup;
+			children = (
+				EB2E198E2C32B6A40026F383 /* Ai Fraud */,
+				EB2E198D2C32B6A40026F383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2E198D2C32B6A40026F383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E198C2C32B6A40026F383 /* Ai Fraud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2E198E2C32B6A40026F383 /* Ai Fraud */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E198F2C32B6A40026F383 /* Ai_FraudApp.swift */,
+				EB2E19A52C32B8BE0026F383 /* ProfileView.swift */,
+				EB2E19AB2C32BC510026F383 /* AnalysisResultsView.swift */,
+				EB2E19912C32B6A40026F383 /* ContentView.swift */,
+				EB2E19A92C32BAE90026F383 /* ActivationView.swift */,
+				EB2E19A72C32BAA00026F383 /* FakeCallHistoryData.swift */,
+				EB2E19A32C32B8830026F383 /* HistoryView.swift */,
+				EB2E199F2C32B70F0026F383 /* DetectorView.swift */,
+				EB2E19A12C32B71C0026F383 /* SettingsView.swift */,
+				EB2E19932C32B6A60026F383 /* Assets.xcassets */,
+				EB2E19952C32B6A60026F383 /* Preview Content */,
+			);
+			path = "Ai Fraud";
+			sourceTree = "<group>";
+		};
+		EB2E19952C32B6A60026F383 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E19962C32B6A60026F383 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2E198B2C32B6A40026F383 /* Ai Fraud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2E199A2C32B6A60026F383 /* Build configuration list for PBXNativeTarget "Ai Fraud" */;
+			buildPhases = (
+				EB2E19882C32B6A40026F383 /* Sources */,
+				EB2E19892C32B6A40026F383 /* Frameworks */,
+				EB2E198A2C32B6A40026F383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ai Fraud";
+			productName = "Ai Fraud";
+			productReference = EB2E198C2C32B6A40026F383 /* Ai Fraud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2E19842C32B6A40026F383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EB2E198B2C32B6A40026F383 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EB2E19872C32B6A40026F383 /* Build configuration list for PBXProject "Ai Fraud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2E19832C32B6A40026F383;
+			productRefGroup = EB2E198D2C32B6A40026F383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2E198B2C32B6A40026F383 /* Ai Fraud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2E198A2C32B6A40026F383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2E19972C32B6A60026F383 /* Preview Assets.xcassets in Resources */,
+				EB2E19942C32B6A60026F383 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2E19882C32B6A40026F383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2E19A22C32B71C0026F383 /* SettingsView.swift in Sources */,
+				EB2E19A82C32BAA00026F383 /* FakeCallHistoryData.swift in Sources */,
+				EB2E19A02C32B70F0026F383 /* DetectorView.swift in Sources */,
+				EB2E19A42C32B8830026F383 /* HistoryView.swift in Sources */,
+				EB2E19AA2C32BAE90026F383 /* ActivationView.swift in Sources */,
+				EB2E19AC2C32BC510026F383 /* AnalysisResultsView.swift in Sources */,
+				EB2E19922C32B6A40026F383 /* ContentView.swift in Sources */,
+				EB2E19A62C32B8BE0026F383 /* ProfileView.swift in Sources */,
+				EB2E19902C32B6A40026F383 /* Ai_FraudApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB2E19982C32B6A60026F383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB2E19992C32B6A60026F383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2E199B2C32B6A60026F383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ai Fraud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.Ai-Fraud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2E199C2C32B6A60026F383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ai Fraud/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jason.Ai-Fraud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2E19872C32B6A40026F383 /* Build configuration list for PBXProject "Ai Fraud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2E19982C32B6A60026F383 /* Debug */,
+				EB2E19992C32B6A60026F383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2E199A2C32B6A60026F383 /* Build configuration list for PBXNativeTarget "Ai Fraud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2E199B2C32B6A60026F383 /* Debug */,
+				EB2E199C2C32B6A60026F383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2E19842C32B6A40026F383 /* Project object */;
+}
