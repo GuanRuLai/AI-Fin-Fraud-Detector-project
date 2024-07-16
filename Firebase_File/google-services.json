@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472738410998",
+    "project_id": "ai-fraud-detector",
+    "storage_bucket": "ai-fraud-detector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472738410998:android:2db429eea63dd37d1297d7",
+        "android_client_info": {
+          "package_name": "com.company.ai_fraud_detector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1NjUZ6NrEexIuafrffFBEGZKwwq7DPWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

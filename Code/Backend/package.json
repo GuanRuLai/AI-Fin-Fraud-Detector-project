@@ -9,7 +9,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
-    "type": "module"
+    "firebase": "^10.12.3",
+    "firebase-admin": "^12.2.0"
   }
 }
