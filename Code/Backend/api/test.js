@@ -12,7 +12,7 @@ router.post('/test', async (req, res) => {
 
     try {
         // 创建新文档
-        const docRef = db.collection('users').doc();
+        const docRef = db.collection('users').doc('username');
         await docRef.set({ username: name });
 
         // 因为刚刚已经设置了 username，无需再次获取
