@@ -18,7 +18,7 @@ The goal of this project is to create an AI fraud detector app to prevent middle
 2. **Application front end**:
 
 3. **Application back end**: 
-   - **Record Storage("Backend",  Folder)**: We want to deploy our database on AWS or another cloud service platform, including the analysis results and advice for users. As for phone call records, users can optionally allow us to store them due to data security and privacy concerns.
+   - **Record Storage("Backend", "Firebase_File" Folder)**: We want to deploy our database on AWS or another cloud service platform, including the analysis results and advice for users. As for phone call records, users can optionally allow us to store them due to data security and privacy concerns.
 
 By achieving these goals, our team looks forward to not only helping people prevent telephone fraud but also assisting police agencies to beat scammers. 
 
@@ -28,11 +28,12 @@ By achieving these goals, our team looks forward to not only helping people prev
 | 賴冠儒  | 廣電四/人智應四   | 110405026  | Project Manager & AI Engineer     | Progress arangement, AI programming |
 | 蔡安德  | 統計三            | 110405193  |  AI Engineer               | AI programming |
 | 李肇恆  | 經濟三            | 110208063  | AI Engineer               | AI programming, Theses researching |
+| Apoorv Saxena  | 已畢業     | NA  | AI Engineer              | AI programming |
+| 蘇胤翔  | 資科四     | 110703051  | AI Engineer              | Missing value imputation |
 | 許兆豐  | 廣電四/數位四     | 110405027  | APP Designer & Front-end engineer       | APP designing, Front-end programming |
 | 簡子策  | 已畢業            | NA  |  APP Front-end engineer               | Front-end programming |
 | 邵以懷  | 新聞三            | 111405131  | APP Back-end engineer               | Back-end programming, Theses researching, External liaison |
 | 李淳皓  | 資管三/數位三     | 111306020  | APP Back-end engineer               | Back-end programming |
-| 蘇胤翔  | 資科四     | 110703051  | AI Engineer              | Missing value imputation |
 
 ## Project structure(show at most 3 hiararchy)
 ```
@@ -41,6 +42,9 @@ AI Fin Fraud Detector
 │  ├─ AI part
 │  │  ├─ NLP_Words_Frequency_Counting.ipynb
 │  │  ├─ Web Scraping.ipynb
+│  │  ├─ Keyword training data frame.ipynb
+│  │  ├─ CTGAN.ipynb
+│  │  ├─ amplified_result.csv
 │  │  └─ heart.png
 │  ├─ Backend
 │  │  ├─ api
