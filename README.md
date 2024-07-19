@@ -46,12 +46,39 @@ AI Fin Fraud Detector
 │  │  ├─ CTGAN.ipynb
 │  │  ├─ amplified_result.csv
 │  │  └─ heart.png
+│  ├─ App/AI_Fraud_Detector
+│  │  ├─ .bundle
+│  │  ├─ __tests__
+│  │  ├─ android
+│  │  ├─ ios
+│  │  ├─ .eslintrc.js
+│  │  ├─ .gitignore
+│  │  ├─ .prettierrc.js
+│  │  ├─ .watchmanconfig
+│  │  ├─ App.tsx
+│  │  ├─ Gemfile
+│  │  ├─ Gemfile.lock
+│  │  ├─ app.json
+│  │  ├─ babel.config.js
+│  │  ├─ index.js
+│  │  ├─ jest.config.js
+│  │  ├─ metro.config.js
+│  │  ├─ package-lock.json
+│  │  ├─ package.json
+│  │  ├─ tsconfig.json
+│  │  └─ README.md
 │  ├─ Backend
 │  │  ├─ api
+│  │  ├─ middleware
 │  │  ├─ node_modules
+│  │  ├─ secret
 │  │  ├─ app.js
+│  │  ├─ firebase.js
 │  │  ├─ package-lock.json
 │  │  └─ package.json
+│  ├─ Frontend
+│  │  ├─ Ai Fraud.xcodeproj
+│  │  └─ Ai Fraud
 ├─ Data
 │  ├─ scam_records_1.csv
 │  ├─ scam_records_2.csv
