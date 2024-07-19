@@ -88,6 +88,8 @@ AI Fin Fraud Detector
 ├─ Doc
 │  ├─ Project poster.pdf
 │  └─ Project proposal.pdf
+├─ Firebase_File
+│  └─ google-services.json
 ├─ README.md
 └─ teaser.png
 ```
