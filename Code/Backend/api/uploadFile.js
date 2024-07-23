@@ -4,8 +4,12 @@ const upload = multer({ storage: multer.memoryStorage() }); // 使用内存存�
 const app = express();
 const router = express.Router();
 const { bucket } = require('../firebase.js');
+const db = require('../firebase.js').db;
 
 router.post('/upload', upload.single('file'), async (req, res) => {
+
+    let publicUrl
+
     if (!req.file) {
         return res.status(400).send('No file uploaded.');
     }
@@ -27,11 +31,25 @@ router.post('/upload', upload.single('file'), async (req, res) => {
 
     blobStream.on('finish', () => {
         // 构建公开访问的URL
-        const publicUrl = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
+        publicUrl = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
+
+        doc = {
+            'url': publicUrl,
+            'scam_prob': 0,
+            'alert': false,
+            'reason': '',
+            'record_text': ''
+        }
+    
+        doc_ref = db.collection('record1').doc('test_data');
+        doc_ref.set(doc);
+
         res.status(200).send({url: publicUrl});
     });
 
     blobStream.end(req.file.buffer);
+
+    
 });
 
 module.exports = router;
