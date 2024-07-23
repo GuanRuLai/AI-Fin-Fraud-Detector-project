@@ -79,6 +79,7 @@ AI Fin Fraud Detector
 │  ├─ Frontend
 │  │  ├─ Ai Fraud.xcodeproj
 │  │  └─ Ai Fraud
+│  └─ .DS_Store
 ├─ Data
 │  ├─ scam_records_1.csv
 │  ├─ scam_records_2.csv
@@ -90,6 +91,7 @@ AI Fin Fraud Detector
 │  └─ Project proposal.pdf
 ├─ Firebase_File
 │  └─ google-services.json
+├─ .DS_Store
 ├─ README.md
 └─ teaser.png
 ```
