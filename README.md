@@ -4,7 +4,7 @@
 
 The goal of this project is to create an AI fraud detector app to prevent middle-aged and elderly people from suffering telephone fraud, reducing criminal behavior and financial losses instantly.
 
-1. **Artificial intelligence usage**: 
+1. **Artificial intelligence process**: 
    - **Data Collection("Data" Folder)**:  In order to ensure the accuracy of judgment, we use the content of real fraud calls as the criteria for keyword selection, and crawl real fraud phone information from foreign forums through SeleniumModule and BeautifulSoup, such as the fraud discussing community "SEamPhoneCalls", Ruura Forum , Youtube channel Kittoga, etc.
    - **Natural Language Processing(NLP - Words Frequency Counting.ipynb)**:  NLTK Module conducts text analysis on all data obtained by crawlers, using part-of-speech tagging to extract the noun keywords of the text and creates word bags, and applies Counter function to perform word frequency analysis and count the top 50 most frequently occurring keywords. The results are presented through bar chart and word cloud.
    - **Initial Training Dataset Building(Keyword training data frame.ipynb)**:  The word frequency statistical results mainly include five categories according to high word frequency keywords: money related, personal information related, inducement words related, promotional content related, and kinship related. Among them, the money related category is the most important in financial fraud detection, its weight is higher than other categories, and the frequency of keywords in this category is higher than other categories. Therefore, it'll be dealt with first.
