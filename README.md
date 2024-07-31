@@ -92,6 +92,7 @@ AI Fin Fraud Detector
 ├─ Firebase_File
 │  └─ google-services.json
 ├─ .DS_Store
+├─ .gitignore
 ├─ README.md
 └─ teaser.png
 ```
