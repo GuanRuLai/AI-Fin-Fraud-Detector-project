@@ -58,6 +58,7 @@ AI Fin Fraud Detector
 │  │  ├─ App.tsx
 │  │  ├─ Gemfile
 │  │  ├─ Gemfile.lock
+│  │  ├─ README.md
 │  │  ├─ app.json
 │  │  ├─ babel.config.js
 │  │  ├─ index.js
@@ -65,8 +66,7 @@ AI Fin Fraud Detector
 │  │  ├─ metro.config.js
 │  │  ├─ package-lock.json
 │  │  ├─ package.json
-│  │  ├─ tsconfig.json
-│  │  └─ README.md
+│  │  └─ tsconfig.json
 │  ├─ Backend
 │  │  ├─ api
 │  │  ├─ middleware
