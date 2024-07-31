@@ -72,6 +72,8 @@ AI Fin Fraud Detector
 │  │  ├─ middleware
 │  │  ├─ node_modules
 │  │  ├─ secret
+│  │  ├─ .DS_Store
+│  │  ├─ README.md
 │  │  ├─ app.js
 │  │  ├─ firebase.js
 │  │  ├─ package-lock.json
