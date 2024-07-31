@@ -71,3 +71,25 @@
 - http://localhost:8000/api/delete/:id
     - 要求資料（範例）：
     網址提供錄音檔的id
+
+
+---
+
+**資料庫架構**
+Firestore Database
+|
+|-- record1 (Collection)
+|   |
+|   |-- (Document)
+|       |-- alert（預設為空，等待與ai部分串連）
+|       |-- audio_url
+|       |-- id
+|       |-- phone_num
+|       |-- record_time
+|       |-- scam_level（預設為空，等待與ai部分串連）
+|       |-- score（預設為空，等待與ai部分串連）
+|       |-- text_url
+|
+|-- users (Collection)
+    |
+    |-- (暫時空白，以後擴充)
