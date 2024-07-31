@@ -2,7 +2,7 @@ import Foundation
 
 class NetworkManager {
     static let shared = NetworkManager()
-    private let baseURL = "http://192.168.x.x:8000/api" // Replace with your local IP address
+    private let baseURL = "http://192.168.50.30:8000/api" // Replace with your local IP address
 
     private init() {}
 
@@ -47,6 +47,11 @@ class NetworkManager {
                 let error = NSError(domain: "com.yourapp.error", code: 0, userInfo: [NSLocalizedDescriptionKey: "No data received"])
                 completion(.failure(error))
                 return
+            }
+            
+            // Print raw response data for debugging
+            if let responseString = String(data: data, encoding: .utf8) {
+                print("Raw response: \(responseString)")
             }
             
             do {
