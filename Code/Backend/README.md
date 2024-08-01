@@ -3,15 +3,15 @@
 *cd 到後端目錄(javascript)*
 - cd AI-Fin-Fraud-Detector-project/Code/Backend
 
-*開啟app.js*
+*開啟 app.js*
 - npm install
 - node app.js
 
 *cd 到後端目錄(python)*
 - cd AI-Fin-Fraud-Detector-project/Code/Backend/api
 
-*建立openai key*
-- 到secret資料夾內建立api.txt檔，將我提供的api key貼入
+*建立 openai key*
+- 到 secret 資料夾內建立 api.txt 檔，將我提供的 api key 貼入
 
 *啟動後端*
 - python3 transcribe.py
@@ -20,7 +20,7 @@
 
 ---
 
-**api資訊整理**
+**api 資訊整理**
 
 *拿取所有錄音檔*
 - http://localhost:8000/api/records (get)
@@ -37,7 +37,7 @@
 *拿取單一錄音檔*
 - http://localhost:8000/api/record/:id (get)
     - 要求資料（範例）：
-    網址提供錄音檔的id
+    網址提供錄音檔的 id
 
     - 回傳資料（範例）：
     {
@@ -57,7 +57,7 @@
     {
         "file": "要上傳的錄音文件（必須是二進位數據）",
         "phone_num": "上傳者的電話號碼（例如：'123456789'）",
-        "record_time": "錄音的時間（例如：'2021-10-10）" （要轉換成yyyy-mm-dd格式）
+        "record_time": "錄音的時間（例如：'2021-10-10）" （要轉換成 yyyy-mm-dd 格式）
     }
     
     - 回傳資料（範例）（暫定如此，未來串連上ai會更正）：
@@ -70,12 +70,13 @@
 *刪除錄音檔*
 - http://localhost:8000/api/delete/:id
     - 要求資料（範例）：
-    網址提供錄音檔的id
+    網址提供錄音檔的 id
 
 
 ---
 
 **資料庫架構**
+```
 Firestore Database
 |
 |-- record1 (Collection)
@@ -93,3 +94,4 @@ Firestore Database
 |-- users (Collection)
     |
     |-- (暫時空白，以後擴充)
+```
