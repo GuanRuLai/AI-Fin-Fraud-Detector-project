@@ -78,6 +78,11 @@ AI Fin Fraud Detector
 │  │  ├─ firebase.js
 │  │  ├─ package-lock.json
 │  │  └─ package.json
+│  ├─ Frontend Jason New
+│  │  ├─ Ai Fraud.xcodeproj
+│  │  ├─ Ai Fraud
+│  │  ├─ .DS_Store
+│  │  ├─ Ai-Fraud-Info.plist
 │  ├─ Frontend
 │  │  ├─ Ai Fraud.xcodeproj
 │  │  └─ Ai Fraud
