@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydub
+speechrecognition
+nltk
+pandas
+pyngrok
+nest_asyncio
+scikit-learn
