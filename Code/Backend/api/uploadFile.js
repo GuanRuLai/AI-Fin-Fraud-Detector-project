@@ -68,34 +68,6 @@ router.post('/upload', upload.single('file'), async (req, res) => {
                     contentType: 'text/plain'
                 }
             });
-
-            textBlobStream.on('error', (error) => {
-                console.error(error);
-                res.status(500).send('Something went wrong while uploading the text file!');
-            });
-
-            textBlobStream.on('finish', async () => {
-                textPath = `https://storage.googleapis.com/${bucket.name}/id`;
-                console.log(req.body);
-
-                // 更新 Firestore 文档
-                // 先寫入ai分析之外的數據，scam_level, alert, score待寫入
-                const docRef = db.collection('record1').doc(id);
-                await docRef.set({
-                    audio_url: audioPath,
-                    text_url: textPath,
-                    id,
-                    phone_num: req.body.phone_num, 
-                    record_time: req.body.record_time,
-                });
-
-                res.status(200).send({
-                    audio_url: audioPath,
-                    text_file_url: textPath,
-                    record_text: recordText
-                });
-            });
-
             textBlobStream.end(recordText);
         } catch (error) {
             console.error('Error transcribing audio: ', error);
@@ -104,6 +76,10 @@ router.post('/upload', upload.single('file'), async (req, res) => {
     });
 
     blobStream.end(req.file.buffer);
+
+    //將txt連結傳入NLP&AI的API
+    //將回傳結果寫入資料庫
+    //將結果回傳前端
 });
 
 module.exports = router;
