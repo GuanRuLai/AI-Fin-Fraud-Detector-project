@@ -17,8 +17,15 @@ The goal of this project is to create an AI fraud detector app to prevent middle
    - **Model Building**: Define a function named algorithm to calculate a risk score for each call sample. It scores based on multiple factors such as involvement of money, personal information, and inducive words. Adjust the weights of each scoring factor dynamically to balance the importance of each indicator based on trigger frequency. Read a CSV file, apply the algorithm to calculate risk scores, and perform normalization. Based on the normalized scores, categorize the risk levels into high, medium, and low. The program will output detailed information and reasons for high-risk cases. The main purpose of this script is to help identify potential phone scams by analyzing keywords and patterns in call content to assess risk. Its design is flexible and can dynamically adjust scoring criteria to improve detection accuracy based on actual situations.
 
 2. **Application front end**:
+   - **Real-time Call Recording**: This feature allows users to record calls in real-time while answering them. With just a simple tap to start recording, the process will proceed automatically. Once the recording is stopped, it will be saved, and users can review and manage it later.
 
-3. **Application back end**: 
+   - **Fraud Detection**: This is one of our app's most crucial features. By using machine learning and AI techniques, our app captures key phrases from recorded calls and analyzes potential fraudulent activities. When a high probability of fraud is detected, a red warning light will be displayed. For example, when keywords like "bank account" are detected, the app will alert the user. Additionally, we provide guidance on how to respond to fraudulent behavior, helping users stay vigilant.
+
+   - **Call History Management**: This feature allows users to view a list of all recorded calls. Users can select specific call records for analysis. Each call record includes options to listen, delete, or analyze. Currently, our app displays four call records. Once we connect to the backend server, any new recordings will appear here, showcasing our ability to integrate front-end and back-end systems.
+
+   - **Official Alerts and Notifications**: Additionally, our app will display alert notifications from official government or bank departments, warning users about potential fraud or offering reminders between contacts to raise awareness.
+
+4. **Application back end**: 
    - **Record Storage("Backend", "Firebase_File" Folder)**: We want to deploy our database on AWS or another cloud service platform, including the analysis results and advice for users. As for phone call records, users can optionally allow us to store them due to data security and privacy concerns.
 
 By achieving these goals, our team looks forward to not only helping people prevent telephone fraud but also assisting police agencies to beat scammers. 
