@@ -28,6 +28,8 @@ The goal of this project is to create an AI fraud detector app to prevent middle
 4. **Application back end**: 
    - **Record Storage("Backend", "Firebase_File" Folder)**: We want to deploy our database on AWS or another cloud service platform, including the analysis results and advice for users. As for phone call records, users can optionally allow us to store them due to data security and privacy concerns.
 
+   - **Basic API Implementation**: We implemented basic CRUD API with express.js framework. It allows user to do most functions in our application, including browsing all phone call analysis, deleting the records.
+
 By achieving these goals, our team looks forward to not only helping people prevent telephone fraud but also assisting police agencies to beat scammers. 
 
 ## Contributors
